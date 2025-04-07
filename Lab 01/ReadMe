@@ -4,25 +4,29 @@ Falta corregir el nombre de las labels de ambos graficos para se sepa de buena m
 
 
 2. Problema
-El laboratorio busca analizar el movimiento de peatones en un corredor unidireccional para comprender mejor la dinámica de flujo peatonal en entornos controlados. Utilizando un conjunto de datos específico, el laboratorio se enfoca en:
+El laboratorio busca analizar el movimiento de peatones en un corredor unidireccional para comprender mejor la dinámica de flujo peatonal en entornos controlados. Utilizando un conjunto de datos específico,
+el laboratorio se enfoca en:
 
-2.05 Cargar y Preparar los Datos: Importar los datos desde un archivo externo utilizando Python, con especial atención en extraer información relevante como marcas de tiempo y posiciones de cada peatón registrado.
+2.05 Cargar y Preparar los Datos: Importar los datos desde un archivo externo utilizando Python, con especial atención en extraer información relevante como marcas de tiempo y posiciones de cada peatón
+registrado.
 
 2.1 Análisis de Datos:
 
 - Cantidad de Peatones: Determinar cuántos peatones participan en el experimento, contando el número de identificadores únicos de peatones en el dataset. - Listo
 
-- Rapidez Media por Peatón: Calcular la rapidez media para cada peatón individualmente. Esto implicará determinar la distancia     total recorrida y el tiempo total empleado, luego calcular la rapidez promedio para cada uno. -Listo consultar si rapidez media es 
-igual a rapidez promedio, segun yo es lo mismo?
+- Rapidez Media por Peatón: Calcular la rapidez media para cada peatón individualmente. Esto implicará determinar la distancia     total recorrida y el tiempo total empleado, luego calcular la rapidez 
+promedio para cada uno. -Listo consultar si rapidez media es igual a rapidez promedio, segun yo es lo mismo?
 
 2.2 Visualización de Datos:
 
-- Histograma de Rapidez Media: Crear un histograma para visualizar la distribución de la rapidez media de todos los peatones. Identificar la rapidez media dominante observando el peak (valor más alto) más prominente en el histograma. -Listo/2; falta ver donde colocamos lo de indentificar el peak; puede ser como una etiqueta en el grafico?
+- Histograma de Rapidez Media: Crear un histograma para visualizar la distribución de la rapidez media de todos los peatones. Identificar la rapidez media dominante observando el peak (valor más alto) más 
+prominente en el histograma. -Listo/2; falta ver donde colocamos lo de identificar el peak; puede ser como una etiqueta en el grafico?
 
 - Cálculo de Rapidez Media Global: Determinar la velocidad media de todos los peatones en el experimento, que será el promedio de todas las velocidades medias individuales. - Listo
 
 2.3 Objetivos Adicionales:
-- Interpretación de Resultados: Discutir cómo los resultados pueden influir en el diseño de infraestructura peatonal y en la planificación de eventos masivos, basándose en las velocidades medias y las tendencias observadas en el histograma. 
+- Interpretación de Resultados: Discutir cómo los resultados pueden influir en el diseño de infraestructura peatonal y en la planificación de eventos masivos, basándose en las velocidades medias y las 
+tendencias observadas en el histograma. 
 
 #Falta eso; punto 2.3#
 
