@@ -48,7 +48,7 @@ with open("datos.txt", 'r', encoding= "utf-8") as archivo:
         #print(personas[1])
         #print(personas.keys())
     
-    
+    print("Cantidad de peatones:", len(personas))
     rapidez_media = []
 
     #calccular velocidad media de todas las personas 
