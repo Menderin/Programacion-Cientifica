@@ -108,14 +108,14 @@ with open("datos.txt", 'r', encoding= "utf-8") as archivo:
     plt.show()
 
     #heatmap 
-
-    heatmap, xedges, yedges = np.histogram2d(x_all, y_all, bins=50, range=[[-6, 6], [0, 5]])
-
+    #actualizar el heatmap
+    #heatmap, xedges, yedges = np.histogram2d(x_all, y_all, bins=50, range=[[-6, 6], [0, 5]])
+    
     # Paso 3: Mostrar el mapa de calor
-    plt.imshow(heatmap.T, origin='lower', cmap='hot', extent=[-6, 6, 0, 5], aspect='auto')
-    plt.colorbar(label='Número de personas')
-    plt.title('Mapa de calor de zonas más concurridas')
-    plt.xlabel('Posición X')
-    plt.ylabel('Posición Y')
-    plt.grid(False)
-    plt.show()
+    #plt.imshow(heatmap.T, origin='lower', cmap='hot', extent=[-6, 6, 0, 5], aspect='auto')
+    #plt.colorbar(label='Número de personas')
+    #plt.title('Mapa de calor de zonas más concurridas')
+    #plt.xlabel('Posición X')
+    #plt.ylabel('Posición Y')
+    #plt.grid(False)
+    #plt.show()
