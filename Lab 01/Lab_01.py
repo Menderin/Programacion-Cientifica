@@ -19,7 +19,6 @@ with open("datos.txt", 'r', encoding= "utf-8") as archivo:
     for i in range(4):
         archivo.readline()
 
-    total_personas = 0
     personas = {}
     posiciones_en_x = []    #para el heatmap
     posiciones_en_y = [] 
@@ -35,7 +34,7 @@ with open("datos.txt", 'r', encoding= "utf-8") as archivo:
         #crear keys del diccionario
         if id not in personas:
             personas [id] = {"datos" : []}
-            total_personas += 1
+            
         #valores de las keys
         personas [id]["datos"].append((frame,x,y,z))
 
@@ -48,7 +47,7 @@ with open("datos.txt", 'r', encoding= "utf-8") as archivo:
         #print(personas[1])
         #print(personas.keys())
     
-    print("Cantidad de peatones:", len(personas))
+    
     rapidez_media = []
 
     #calccular velocidad media de todas las personas 
@@ -70,9 +69,10 @@ with open("datos.txt", 'r', encoding= "utf-8") as archivo:
         
         print(f"La rapidez media de la persona con ID {id} es: {sum(lista_rapidez)/len(lista_rapidez)}[m/seg]")
     print()
-    print(f"El numero total de personas que participaron en el experimento es: {total_personas}")
+    print(f"El numero total de personas que participaron en el experimento es:", len(personas))
     print()
     print(f"La rapidez media de todas las personas es: {sum(rapidez_media)/len(rapidez_media)}[m/seg]")
+    print()
 
 
     # ¡Graficas! #
